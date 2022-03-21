@@ -3,7 +3,7 @@ import { useState } from "react";
 const ColorModeSwitcher = () => {
   const [isDark, setIsDark] = useState(true);
   return (
-    <div className="absolute top-3 right-5">
+    <div className="absolute top-3 right-5 md:right-9">
       <button className="bg-gray-400/80 rounded-sm p-1 focus:ring-4 focus:ring-offset focus:ring-slate-700 border-none">
         {isDark && (
           <MoonIcon
